@@ -18,7 +18,7 @@ services:
     depends_on:
       - db
     entrypoint: 
-      - ./entrypoints/development.sh
+      - entrypoints/development.sh
 
   db:
     image: postgres:13.1-alpine
